@@ -1,0 +1,212 @@
+.nav-container {
+  display: flex;
+  justify-content: right;
+  width: 100vw;
+  background-color: #2e2e2e;
+  border-bottom: 1.5px solid rgb(59, 49, 49);
+  box-shadow: 0px 0px 6px 0px rgb(49, 44, 44);
+}
+
+.navb {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: auto;
+  flex-wrap: initial;
+}
+.logo {
+  color: #f62f5e;
+  padding: 0;
+  font-size: 26px;
+  font-family: Montserrat;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.navText {
+  color: #f7f3f4;
+  padding: 0;
+  font-size: 13px;
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+  width: 63vw;
+  height: 36px;
+  margin: 10px;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+.search {
+  position: relative;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-height: 50px;
+  margin-right: 40px;
+}
+.searchIcon {
+  width: 50px;
+  height: 100%;
+  position: absolute;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Icon {
+  width: 25px;
+  height: 20px;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notificationIcon {
+  height: 20px;
+  width: 20px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: small;
+
+  color: red;
+}
+.inputInput {
+  border-radius: 100px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-bottom: 8px;
+  padding-left: 40px;
+  background-color: inherit;
+}
+.leftContainer {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: inherit;
+  margin-right: 100px;
+}
+.logo {
+  display: flex;
+}
+
+.search {
+  display: flex;
+}
+
+.profile {
+  display: flex;
+}
+
+.logoContainer {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.social {
+  font-weight: 700;
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.network {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 26px;
+  display: flex;
+  align-items: baseline;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.bottomContainer {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: #ffffffda;
+  background-color: #18181b;
+}
+
+.bottomIconButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  position: relative;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.bottomIconContainer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(250, 247, 247);
+  border-radius: 50%;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.searchOrder {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 20%;
+  max-width: 250px;
+  height: 20%;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.bottomActive {
+  color: white !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text {
+    font-size: 20px;
+  }
+  .navb {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .text {
+    font-size: 20px;
+  }
+  .navb {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .text {
+    font-size: 20px;
+  }
+  .navb {
+    width: 95vw;
+  }
+}

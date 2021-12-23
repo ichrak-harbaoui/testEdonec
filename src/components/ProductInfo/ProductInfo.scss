@@ -1,0 +1,33 @@
+.product-details-image {
+	display: flex;
+	width: 300px;
+	height: 400px;
+}
+.productCard:hover {
+	box-shadow: 20px 20px 20px 20px rgba(0, 0, 0, 0.2);
+	opacity: 0.6;
+}
+.buttonAdd {
+	background-color: #f62f5e;
+	color: white;
+	text-align: center;
+	padding: 10px 45px;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 20px;
+	position: absolute;
+	bottom: 6em;
+}
+
+.ratings {
+	margin-right: 10px;
+}
+
+.ratings i {
+	color: #cecece;
+	font-size: 20px;
+}
+
+.rating-color {
+	color: #fbc634 !important;
+}
